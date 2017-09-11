@@ -27,32 +27,35 @@ Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU i
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Submission Files      |  RNN_project.ipynb, my_answers.py --> both the completed notebook  RNN_project.ipynb as well as all completed python functions requested in the main notebook RNN_project.ipynb (TODO items) should be copied into this python script and submitted for grading.		|
+| 提交文件 | RNN_project.ipynb，my_answers.py - >完成的笔记本RNN_project.ipynb以及主笔记本RNN_project.ipynb（TODO项目）中请求的所有完成的python功能都应该被复制到这个python脚本中并提交分级。 |
 
 #### Step 1:  Implement a function to window time series 实现窗口时间序列的功能
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Window time series data. |  The submission returns the proper windowed version of input time series of proper dimension listed in the notebook.  |
-
+| 窗口时间序列数据。 | 提交返回笔记本中列出的适当尺寸的正确窗口版本的正确尺寸。  |
 
 #### Step 2: Create a simple RNN model using keras to perform regression 使用keras创建一个简单的RNN模型来执行回归
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Build an RNN model to perform regression. |  The submission constructs an RNN model in keras with LSTM module of dimension defined in the notebook.        |
-
+| 建立一个RNN模型来执行回归。| 提交在keras中构建一个RNN模型，其中LSTM模块的尺寸在笔记本中定义。|
 
 #### Step 3: Clean up a large text corpus 清理一个大文本语料库
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Find and remove all non-english or punctuation characters from input text data.  The submission removes all non-english / non-punctuation characters.  |
+| 从输入的文本数据中查找并删除所有非英文或标点符号。 提交将删除所有非英文/非标点符号。  |
 
 
 #### Step 4: Implement a function to window a large text corpus 实现一个函数来窗口大文本语料库
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Implement a function to window input text data| The submission returns the proper windowed version of input text of proper dimension listed in the notebook.  |
+| Implement a function to window input text data | The submission returns the proper windowed version of input text of proper dimension listed in the notebook.  |
+| 实现窗口输入文本数据的功能 | 提交的内容返回笔记本中列出的适当维度的正确的窗口版本的正确维度。 |
 
 
 #### Step 5: Create a simple RNN model using keras to perform multiclass classification 使用keras创建一个简单的RNN模型来执行多类分类
@@ -60,12 +63,13 @@ Instead of a local GPU, you could use Amazon Web Services to launch an EC2 GPU i
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Build an RNN model to perform multiclass classification. |  The submission constructs an RNN model in keras with LSTM module of dimension defined in the notebook.        |
-
+| 构建一个RNN模型来执行多类分类。| 提交在keras中构建一个RNN模型，其中LSTM模块的尺寸在笔记本中定义。|
 
 #### Step 6: Generate text using a fully trained RNN model and a variety of input sequences 使用经过充分训练的RNN模型和各种输入序列生成文本
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 | Generate text using a trained RNN classifier.   | The submission presents examples of generated text from a trained RNN module.  The majority of this generated text should consist of real english words. |
+| 使用训练过的RNN分类器生成文本。| 提交的内容提供训练过的RNN模块生成的文本的示例。 大部分生成的文本应由真正的英文单词组成。|
 
 ## Submission 提交
 Before submitting your solution to a reviewer, you are required to submit your project to Udacity's Project Assistant, which will provide some initial feedback.  
